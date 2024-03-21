@@ -1,0 +1,17 @@
+
+1. **Clinical Problem Definition**: The first step is to clearly define the clinical problem and the objectives of the radiomics study. This includes specifying the disease, patient population, and the clinical endpoints or outcomes that the study aims to predict or classify.
+
+2. **Image Collection and Selection**: This involves collecting and selecting the medical images for analysis. The images can come from various modalities such as CT, MRI, PET, etc. It is crucial to ensure that the images are of high quality and representative of the population of interest.
+
+3. **Image Preprocessing**: Before extracting features, the images need to be preprocessed to ensure consistency and improve the quality of the feature extraction. This can include steps such as resampling, noise reduction, intensity normalization, and correction of artifacts.
+
+4. **Region of Interest (ROI) Segmentation**: The next step is to define the regions within the images from which features will be extracted. This involves delineating the areas of interest (e.g., tumors, organs) manually, semi-automatically, or automatically. Accurate segmentation is crucial as it directly impacts the quality and relevance of the extracted features.
+
+5. **Feature Extraction**: In this step, quantitative features are extracted from the segmented regions. These features can describe the shape, intensity, texture, and wavelet characteristics of the region of interest. The choice of features depends on the clinical question and the characteristics of the images.
+
+6. **Feature Selection and Reduction**: Because radiomics can generate a very large number of features, it is often necessary to reduce the number of features to avoid overfitting and improve the interpretability of the results. This can involve statistical methods, machine learning techniques, or both to select the most relevant features for the clinical question at hand.
+
+7. **Model Building and Validation**: The selected features are then used to build predictive or descriptive models. This could involve various statistical or machine learning approaches. The models are typically validated using independent datasets to assess their generalizability and performance.
+
+8. **Clinical Assessment**: The final step is to evaluate the clinical usefulness of the radiomics approach. This involves assessing whether the model improves decision-making, diagnosis, prognosis, or treatment in a meaningful way. This can be done through clinical trials, retrospective studies, or prospective studies.
+
